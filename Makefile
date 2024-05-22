@@ -4,5 +4,3 @@ all: all.o
 all.o: main.cpp src/glad.c src/shaders.cpp
 	g++ -c main.cpp src/glad.c src/shaders.cpp
 
-clean:
-	rm *.o main
