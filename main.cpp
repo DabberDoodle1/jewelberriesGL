@@ -38,6 +38,7 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 int main(void) {
 
 
+
   if (!glfwInit()) {
     std::cout << "ERROR: GLFW not initialized because glfwInit() has failed." << std::endl;
     return -1;
